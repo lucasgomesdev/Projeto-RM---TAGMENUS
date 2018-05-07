@@ -1,0 +1,36 @@
+-- 
+-- Script de Trocas entre colaboradores para inserts em bases que ainda não existem os Registros --
+-- Gerar um Arquivo texto com o resultado deste SELECT e compartilhar com a equipe colaboradora
+--
+
+Select 'Set DateFormat DMY;'
+UNION
+Select 'Insert into ZMDTAGMENU Select ''' 
+		+ CAST(TAGMENU as VARCHAR)+ ''', '''
+		+ MENU + ''','''
+		+ RECCREATEDBY  + ''','''
+		+ CONVERT(VARCHAR(10), RECCREATEDON , 103)  + ''','''
+		+ RECMODIFIEDBY  + ''','''
+		+ CONVERT(VARCHAR(10), RECMODIFIEDON , 103)  
+		+ ''' Where ''' 
+		+ Cast(TagMenu as Varchar)
+		+ ''' Not in (Select Cast(TagMenu as Varchar) From ZMDTAGMENU)'
+From ZMDTAGMENU
+UNION
+Select 'Insert into ZMDGAUTZMENU Select ''' 
+		+ CODSISTEMA + ''', ''' 
+		+ CAST(TAGMENU as VARCHAR)+ ''', '''
+		+ CAST(POS as VARCHAR)+''','''
+		+ MENU + ''','''
+		+ DETALHE + ''','''
+		+ RECCREATEDBY  + ''','''
+		+ CONVERT(VARCHAR(10), RECCREATEDON , 103)  + ''','''
+		+ RECMODIFIEDBY  + ''','''
+		+ CONVERT(VARCHAR(10), RECMODIFIEDON , 103)    + ''','''
+		+ NUMPERM   + ''','''
+		+ VERSRM
+		+ ''' Where ''' + CodSistema + '|' 
+		+ Cast(TagMenu as Varchar)+ '|' 
+		+ Cast(Pos as Varchar) + ''' Not in (Select CodSistema + ''|'' + Cast(TagMenu as Varchar)+ ''|'' + Cast(Pos as Varchar) From ZMDGAUTZMENU)'
+From ZMDGAUTZMENU
+Order by 1 Desc

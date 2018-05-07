@@ -1,12 +1,3 @@
---Listagem de todas as TAGMENUS e MENUS correspondentes
---LOG:
---22/03/2018: Referência completa aos menus do RM NUCLEUS na versão 12.1.17.183
---20/04/2018: Referência completa aos menus do RM FLUXUS na versão 12.1.17.183
---25/04/2018: Referência completa aos menus do RM SALDUS na versão 12.1.17.183
---07/05/2018: Referência completa aos menus do RM LABORE na versão 12.1.17.183
-
---Podem haver variações de menus por nomes parametrizados, nos menus em METADADOS ou em TABELAS OPCIONAIS.
-
 Set DateFormat DMY;
 Insert into ZMDTAGMENU Select '999999999', 'Disgnóstico de Rastreabilidade dos Lançamentos Contábeis','Jair.silva','20/04/2018','Jair.silva','20/04/2018' Where '999999999' Not in (Select Cast(TagMenu as Varchar) From ZMDTAGMENU)
 Insert into ZMDTAGMENU Select '999', 'Tabelas de Orçamento','Jair.silva','13/03/2018','Jair.silva','13/03/2018' Where '999' Not in (Select Cast(TagMenu as Varchar) From ZMDTAGMENU)
