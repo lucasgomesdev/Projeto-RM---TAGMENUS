@@ -4,8 +4,11 @@ Projeto Documentação de TagMenus e Mapeamento de Acessos de Usuários
 --LOG:
 
 22/03/2018: Referência completa aos menus do RM NUCLEUS na versão 12.1.17.183
+
 20/04/2018: Referência completa aos menus do RM FLUXUS na versão 12.1.17.183
+
 25/04/2018: Referência completa aos menus do RM SALDUS na versão 12.1.17.183
+
 07/05/2018: Referência completa aos menus do RM LABORE na versão 12.1.17.183
 
 --Podem haver variações de menus por nomes parametrizados, nos menus em METADADOS ou em TABELAS OPCIONAIS.
