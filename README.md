@@ -7,7 +7,7 @@
   * 25/04/2018: Referência completa aos menus do RM SALDUS na versão 12.1.17.183
   * 07/05/2018: Referência completa aos menus do RM LABORE na versão 12.1.17.183
 
-##### --Podem haver variações de menus por nomes parametrizados, nos menus em METADADOS ou em TABELAS OPCIONAIS.
+###### --Podem haver variações de menus por nomes parametrizados, nos menus em METADADOS ou em TABELAS OPCIONAIS.
 
 
 Para um melhor controle da documentação de acessos nas empresas, o sistema tem o seu controle de acessos por usuários e Perfis, mas não nos permite ter um relatório e/ou consulta mais detalhada destas permissões para apresentação a gerentes e controladores de equipes. Desta forma, iniciamos um projeto de identificação e guarda ddos códigos de telas e também dos registros associados aos menus e opções, para com eles podermos gerar consultas, cubos e quaisquer relatórios que a TOTVS não nos fornece. 
@@ -22,5 +22,5 @@ Para a troca dos dados e atualização constante, vamos criar e disponibilizar u
 
 Todos que participantes que participarem no projeto terão seus nomes identificados em documento final que desenvolveremos. 
 
-Muito grato a todos os amigos e colaboradores que tem a intenção em melhorar sempre os recursos das ferramentas TOTVS - RM
+###### Muito grato a todos os amigos e colaboradores que tem a intenção em melhorar sempre os recursos das ferramentas TOTVS - RM
 
