@@ -10,7 +10,7 @@
 ###### --Podem haver variações de menus por nomes parametrizados, nos menus em METADADOS ou em TABELAS OPCIONAIS.
 
 
-Para um melhor controle da documentação de acessos nas empresas, o sistema tem o seu controle de acessos por usuários e Perfis, mas não nos permite ter um relatório e/ou consulta mais detalhada destas permissões para apresentação a gerentes e controladores de equipes. Desta forma, iniciamos um projeto de identificação e guarda ddos códigos de telas e também dos registros associados aos menus e opções, para com eles podermos gerar consultas, cubos e quaisquer relatórios que a TOTVS não nos fornece. 
+Para um melhor controle da documentação de acessos nas empresas, o sistema tem o seu controle de acessos por usuários e Perfis, mas não nos permite ter um relatório e/ou consulta mais detalhada destas permissões para apresentação a gerentes e controladores de equipes. Desta forma, iniciamos um projeto de identificação e guarda dos códigos de telas e também dos registros associados aos menus e opções, para com eles podermos gerar consultas, cubos e quaisquer relatórios que a TOTVS não nos fornece. 
 
 Foi iniciado o projeto no mês de março de 2018, e pretendemos mapear todos os menus dos sistemas, criando um banco de dados unificado e com constante atualização, onde haja a troca destes dados para todos que usem os sitemas, e precisem destas informações. 
 
