@@ -6,11 +6,9 @@
   * 20/04/2018: Referência completa aos menus do RM FLUXUS na versão 12.1.17.183
   * 25/04/2018: Referência completa aos menus do RM SALDUS na versão 12.1.17.183
   * 07/05/2018: Referência completa aos menus do RM LABORE na versão 12.1.17.183
-<<<<<<< HEAD
-  * 14/06/2018: Referência completa aos menus do RM VITAE na versão 12.1.20.129  *
-=======
   * 09/05/2018: Referência aos menus do RM BIS (Serviços Globais) na versão 12.1.17.183
->>>>>>> feb9c9f2ddca4586444a22e327e7672e70588e22
+  * 14/06/2018: Referência completa aos menus do RM VITAE na versão 12.1.20.129  *
+
 
 ###### --Podem haver variações de menus por nomes parametrizados, nos menus em METADADOS ou em TABELAS OPCIONAIS.
 
